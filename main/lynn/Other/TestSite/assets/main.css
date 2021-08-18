@@ -18,22 +18,7 @@ body {
 	vertical-align: middle;
 }
 
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: right;
-  padding: 30px 10% ;
-}
-
-
-.logo{
-	width: 50px;
-	cursor: pointer;
-	margin: 30px 0;
-}
-
-/* NAVBAR */ /*
+/* NAVBAR */ 
 .navbar{
 	width: 100%;
 	display: flex;
@@ -72,7 +57,7 @@ nav ul li a:hover{
 }
 /* END */
 
-/* "WAVES" */ /*
+/* "WAVES" */
 .top {
   	position: absolute;
   	top: 0;
