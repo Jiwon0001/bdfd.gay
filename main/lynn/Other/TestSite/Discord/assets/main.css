@@ -56,6 +56,15 @@ nav ul li a:hover{
 }
 /* END */
 
+/* "Text" */
+.Text1 {
+  position: fixed;
+  color: aquamarine;
+  font-weight: bold;
+  align-content: center;
+}
+/* END */
+
 /* "WAVES" */ 
 .top {
   	position: fixed;
