@@ -58,20 +58,11 @@ nav ul li a:hover{
 
 /* "Text" */
 .Text1 {
-  /*color: aquamarine;
+  color: aquamarine;
   font-weight: bolder;
   display: flex;
   justify-content: center;
-  align-items: center; */
-}
-
-.Text2 {
-    width: 100%;
-    height: auto;
-    bottom: 0px;
-    top: 0px;
-    left: 0;
-    position: absolute;
+  align-items: center; 
 }
 /* END */
 
