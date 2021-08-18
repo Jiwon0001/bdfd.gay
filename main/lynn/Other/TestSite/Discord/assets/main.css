@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:900,900italic,500,500italic,700,700italic');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+	background: #36393F;
+}
+.container{
+	width: 100%
+	min-height: 100vh;
+	padding-left: 2%;
+	padding-right: 4%;
+	box-sizing: border-box;
+	overflow: hidden; 
+	vertical-align: middle;
+}
+
+/* "WAVES" */ 
+.top {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	z-index: -1;
+}
+.bottom {
+	position: fixed;
+  	bottom: 0;
+  	left: 0;
+  	z-index: -1;
+}
+/* END */
