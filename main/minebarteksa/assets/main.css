@@ -265,9 +265,9 @@ br + br {
 	font-family: 'Courier Prime', monospace;
 	letter-spacing: 0.275rem;
 	width: calc(100% + 0.275rem);
-	font-size: 1em;
+	font-size: 2em;
 	line-height: 0.75;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 #text03 a:hover {
