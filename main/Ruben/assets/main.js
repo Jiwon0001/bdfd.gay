@@ -1,4 +1,3 @@
-/* Carrd Site JS | carrd.co | License: MIT */
 
 (function() {
 
@@ -409,17 +408,6 @@
 	
 		// Expose scrollToElement.
 			window._scrollToTop = scrollToTop;
-	
-	// Animation.
-		on('load', function() {
-			setTimeout(function() {
-				$body.className = $body.className.replace(/\bis-loading\b/, 'is-playing');
-	
-				setTimeout(function() {
-					$body.className = $body.className.replace(/\bis-playing\b/, 'is-ready');
-				}, 6000);
-			}, 100);
-		});
 	
 	// Load elements (if needed).
 		loadElements(document.body);
