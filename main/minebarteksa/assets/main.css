@@ -265,7 +265,7 @@ br + br {
 	font-family: 'Courier Prime', monospace;
 	letter-spacing: 0.275rem;
 	width: calc(100% + 0.275rem);
-	font-size: 2em;
+	font-size: 1em;
 	line-height: 0.75;
 	font-weight: 500;
 }
