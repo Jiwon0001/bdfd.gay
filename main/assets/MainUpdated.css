@@ -1,6 +1,6 @@
 html,
 body,
-div,
+v,
 span,
 applet,
 object,
@@ -958,6 +958,29 @@ p.style1 a:hover {
 }
 
 #text56 a:hover {
+	text-decoration: none;
+}
+
+#text22 br+br {
+	margin-top: 0.6rem;	
+}
+
+#text22 {
+	text-align: center;
+	color: #7A7A7A;
+	font-family: 'Assistant', sans-serif;
+	letter-spacing: -0.05rem;
+	width: 100%;
+	font-size: 1.125em;
+	line-height: 1;
+	font-weight: 700;
+}
+
+#text22 a {
+	text-decoration: underline;
+}
+
+#text22 a:hover {
 	text-decoration: none;
 }
 
