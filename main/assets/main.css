@@ -3409,6 +3409,13 @@ hr:before {
 		line-height: 1;
 	}
 	
+	#text48 {
+		letter-spacing: 0.021875rem;
+		width: calc(100% + 0.021875rem);
+		font-size: 3em;
+		line-height: 1;
+	}
+	
 	#text12 {
 		letter-spacing: 0.021875rem;
 		width: calc(100% + 0.021875rem);
@@ -3625,6 +3632,19 @@ hr:before {
 	}
 	
 	#image19 img {
+		width: 9rem;
+		height: 11.25rem !important;
+		-moz-object-fit: cover;
+		-webkit-object-fit: cover;
+		-ms-object-fit: cover;
+		object-fit: cover;
+		-moz-object-position: center;
+		-webkit-object-position: center;
+		-ms-object-position: center;
+		object-position: center;
+	}
+	
+	#image21 img {
 		width: 9rem;
 		height: 11.25rem !important;
 		-moz-object-fit: cover;
@@ -5663,6 +5683,10 @@ hr:before {
 	}
 	
 	#text35 {
+		font-size: 2em;
+	}
+	
+	#text28 {
 		font-size: 2em;
 	}
 	
