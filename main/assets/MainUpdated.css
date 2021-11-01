@@ -1237,6 +1237,28 @@ p.style1 a:hover {
 	text-decoration: none;
 }
 
+#text103 br+br {
+	margin-top: 0.6rem;
+}
+
+#text103 {
+	text-align: center;
+	color: #7A7A7A;
+	font-family: 'Assistant', sans-serif;
+	letter-spacing: -0.05rem;
+	width: 100%;
+	font-size: 1.125em;
+	line-height: 1;
+	font-weight: 700;
+}
+
+#text103 a {
+	text-decoration: underline;
+}
+
+#text103 a:hover {
+	text-decoration: none;
+}
 .image {
 	position: relative;
 	max-width: 100%;
