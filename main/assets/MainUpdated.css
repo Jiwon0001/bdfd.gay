@@ -1651,6 +1651,25 @@ p.style1 a:hover {
 	border-radius: 2.5rem;
 }
 
+#image100 a,
+#image100 span {
+	border-radius: 2.5rem;
+}
+
+#image100 img {
+	width: 9rem;
+	height: 9rem;
+	-moz-object-fit: cover;
+	-webkit-object-fit: cover;
+	-ms-object-fit: cover;
+	object-fit: cover;
+	-moz-object-position: center;
+	-webkit-object-position: center;
+	-ms-object-position: center;
+	object-position: center;
+	border-radius: 2.5rem;
+}
+
 #image09 a,
 #image09 span {
 	border-radius: 2.5rem;
