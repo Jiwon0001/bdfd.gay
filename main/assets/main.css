@@ -1295,6 +1295,7 @@ h1.style1 a:hover, h2.style1 a:hover, h3.style1 a:hover, p.style1 a:hover {
 	object-position: center;
 	border-radius: 2.5rem;
 }
+
 .container {
 	position: relative;
 }
