@@ -1178,7 +1178,7 @@ p.style1 a:hover {
 	font-family: 'Assistant', sans-serif;
 	letter-spacing: 0.025rem;
 	width: calc(100% + 0.025rem);
-	font-size: 1em;
+	font-size: 0.25em;
 	line-height: 1;
 	font-weight: 100;
 }
