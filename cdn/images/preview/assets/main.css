@@ -1180,7 +1180,7 @@ p.style1 a:hover {
 	width: calc(100% + 0.025rem);
 	font-size: 1em;
 	line-height: 1;
-	font-weight: 300;
+	font-weight: 100;
 }
 
 #text06 a {
