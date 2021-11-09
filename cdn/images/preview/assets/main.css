@@ -1178,17 +1178,17 @@ p.style1 a:hover {
 	font-family: 'Assistant', sans-serif;
 	letter-spacing: 0.025rem;
 	width: calc(100% + 0.025rem);
-	font-size: 3em;
+	font-size: 1em;
 	line-height: 1;
-	font-weight: 700;
+	font-weight: 300;
 }
 
 #text06 a {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 #text06 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 #text12 br+br {
