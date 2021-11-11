@@ -1700,6 +1700,26 @@ p.style1 a:hover {
 	border-radius: 2.5rem;
 }
 
+
+#Breberton a,
+#Breberton span {
+	border-radius: 2.5rem;
+}
+
+#Breberton img {
+	width: 9rem;
+	height: 9rem;
+	-moz-object-fit: cover;
+	-webkit-object-fit: cover;
+	-ms-object-fit: cover;
+	object-fit: cover;
+	-moz-object-position: center;
+	-webkit-object-position: center;
+	-ms-object-position: center;
+	object-position: center;
+	border-radius: 2.5rem;
+}
+
 #image21 a,
 #image21 span {
 	border-radius: 2.5rem;
