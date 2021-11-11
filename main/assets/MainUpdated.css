@@ -570,6 +570,29 @@ p.style1 a:hover {
 	text-decoration: none;
 }
 
+#Brebertontag br+br {
+	margin-top: 0.6rem;
+}
+
+#Brebertontag {
+	text-align: center;
+	color: #7A7A7A;
+	font-family: 'Assistant', sans-serif;
+	letter-spacing: 0.025rem;
+	width: calc(100% + 0.025rem);
+	font-size: 1.375em;
+	line-height: 1;
+	font-weight: 700;
+}
+
+#Brebertontag a {
+	text-decoration: underline;
+}
+
+#Brebertontag a:hover {
+	text-decoration: none;
+}
+
 #text10 br+br {
 	margin-top: 0.6rem;
 }
