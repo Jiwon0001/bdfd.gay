@@ -580,9 +580,9 @@ p.style1 a:hover {
 	font-family: 'Assistant', sans-serif;
 	letter-spacing: 0.025rem;
 	width: calc(100% + 0.025rem);
-	font-size: 1.375em;
+	font-size: 1.175em;
 	line-height: 1;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 #Brebertontag a {
