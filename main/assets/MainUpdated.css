@@ -593,6 +593,29 @@ p.style1 a:hover {
 	text-decoration: none;
 }
 
+#Jungle2 br+br {
+	margin-top: 0.6rem;
+}
+
+#Jungle2 {
+	text-align: center;
+	color: #7A7A7A;
+	font-family: 'Assistant', sans-serif;
+	letter-spacing: 0.025rem;
+	width: calc(100% + 0.025rem);
+	font-size: 1.175em;
+	line-height: 1;
+	font-weight: 500;
+}
+
+#Jungle2 a {
+	text-decoration: underline;
+}
+
+#Jungle2 a:hover {
+	text-decoration: none;
+}
+
 #text10 br+br {
 	margin-top: 0.6rem;
 }
@@ -1707,6 +1730,25 @@ p.style1 a:hover {
 }
 
 #Breberton img {
+	width: 9rem;
+	height: 9rem;
+	-moz-object-fit: cover;
+	-webkit-object-fit: cover;
+	-ms-object-fit: cover;
+	object-fit: cover;
+	-moz-object-position: center;
+	-webkit-object-position: center;
+	-ms-object-position: center;
+	object-position: center;
+	border-radius: 2.5rem;
+}
+
+#jungleimg a,
+#jungleimg span {
+	border-radius: 2.5rem;
+}
+
+#jungleimg img {
 	width: 9rem;
 	height: 9rem;
 	-moz-object-fit: cover;
