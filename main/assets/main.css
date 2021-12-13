@@ -3414,6 +3414,20 @@ hr:before {
 		line-height: 1;
 	}
 	
+	#Aayush3 {
+		letter-spacing: -0.04375rem;
+		width: 100%;
+		font-size: 1em;
+		line-height: 1;
+	}
+	
+	#ad3 {
+		letter-spacing: -0.04375rem;
+		width: 100%;
+		font-size: 1em;
+		line-height: 1;
+	}
+	
 	#text41 {
 		letter-spacing: -0.04375rem;
 		width: 100%;
@@ -3692,6 +3706,32 @@ hr:before {
 	}
 	
 	#image21 img {
+		width: 9rem;
+		height: 11.25rem !important;
+		-moz-object-fit: cover;
+		-webkit-object-fit: cover;
+		-ms-object-fit: cover;
+		object-fit: cover;
+		-moz-object-position: center;
+		-webkit-object-position: center;
+		-ms-object-position: center;
+		object-position: center;
+	}
+	
+	#ad1 img {
+		width: 9rem;
+		height: 11.25rem !important;
+		-moz-object-fit: cover;
+		-webkit-object-fit: cover;
+		-ms-object-fit: cover;
+		object-fit: cover;
+		-moz-object-position: center;
+		-webkit-object-position: center;
+		-ms-object-position: center;
+		object-position: center;
+	}
+	
+	#Aayush1 img {
 		width: 9rem;
 		height: 11.25rem !important;
 		-moz-object-fit: cover;
@@ -5769,6 +5809,14 @@ hr:before {
 		font-size: 1.25em;
 	}
 	
+	#ad3 {
+		font-size: 1.25em;
+	}
+	
+	#Aayush3 {
+		font-size: 1.25em;
+	}
+	
 	#image01 img {
 		height: 4.375rem !important;
 	}
@@ -5826,6 +5874,14 @@ hr:before {
 	}
 	
 	#image17 img {
+		height: 7.875rem !important;
+	}
+	
+	#ad1 img {
+		height: 7.875rem !important;
+	}
+	
+	#Aayush1 img {
 		height: 7.875rem !important;
 	}
 	
